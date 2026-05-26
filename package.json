@@ -10,16 +10,17 @@
     "lint": "jshint server.js routes/ sheepManager/ netTools/"
   },
   "devDependencies": {
-    "mocha": "^10.0.0",
     "chai": "^4.3.0",
+    "jshint": "^2.13.6",
+    "mocha": "^10.0.0",
     "supertest": "^7.0.0"
   },
   "dependencies": {
-    "lodash": "^4.17.15",
-    "express": "^4.13.3",
     "body-parser": "^1.15.2",
     "cookie-parser": "^1.4.3",
+    "express": "^4.13.3",
     "express-session": "^1.14.2",
+    "lodash": "^4.17.15",
     "pug": "^2.0.3"
   },
   "repository": {
