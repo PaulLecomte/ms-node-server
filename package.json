@@ -6,7 +6,8 @@
   "version": "1.0.0",
   "scripts": {
     "start": "node server.js",
-    "test": "mocha **.spec.js"
+    "test": "mocha **.spec.js",
+    "lint": "jshint server.js routes/ sheepManager/ netTools/"
   },
   "devDependencies": {
     "mocha": "^10.0.0",
